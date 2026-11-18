@@ -1,0 +1,77 @@
+{
+  "seed": 20261118,
+  "sources": {
+    "en/test_text.txt": {
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_text.txt",
+      "sha256": "09a93a55c63fd93f97485ef7302889d7edb4091cd49733aa37da094f0bfa0675"
+    },
+    "en/test_labels.txt": {
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_labels.txt",
+      "sha256": "6afb4afe9374d1f983bcf9a7c79b108d0f37fdf020a83f30488309bed215db9d"
+    },
+    "en/mapping.txt": {
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/mapping.txt",
+      "sha256": "c0572796fbe261d8ea5fd16c5061076fbba49bc69fc865d6abccaf60daacee24"
+    },
+    "tr/positive.txt": {
+      "url": "https://raw.githubusercontent.com/sercankulcu/sentiment-analysis-of-tweets-in-Turkish/9647a08a9f0f6ac117d6f79a65578315b27682d9/training%20data/positive.txt",
+      "sha256": "67c938b1da2345bc8ef40f607330f434b642bf3f9176642261e025458029f28d"
+    },
+    "tr/negative.txt": {
+      "url": "https://raw.githubusercontent.com/sercankulcu/sentiment-analysis-of-tweets-in-Turkish/9647a08a9f0f6ac117d6f79a65578315b27682d9/training%20data/negative.txt",
+      "sha256": "d8e8680470fde6d5d83397e7a4d1bd92f81be62b9df12307c96dd6c16a67ede2"
+    },
+    "tr/notr.txt": {
+      "url": "https://raw.githubusercontent.com/sercankulcu/sentiment-analysis-of-tweets-in-Turkish/9647a08a9f0f6ac117d6f79a65578315b27682d9/training%20data/notr.txt",
+      "sha256": "a8f0c1da85df82eeedb289896b3c147f858dd704efdbc82e86334f9e9eba78e6"
+    }
+  },
+  "datasets": {
+    "en": {
+      "file": "ingilizce.csv",
+      "sha256": "6876c25e927d28624c7188f7f3a2016eae108d4ba7a4d42a9c717e41a6da228d",
+      "source_counts": {
+        "neutral": 5937,
+        "positive": 2375,
+        "negative": 3972
+      },
+      "removed": {
+        "duplicates": 0,
+        "conflicting_labels": 7
+      },
+      "eligible": {
+        "positive": 2375,
+        "negative": 3968,
+        "neutral": 5934
+      },
+      "selected": {
+        "negative": 1000,
+        "neutral": 1000,
+        "positive": 1000
+      }
+    },
+    "tr": {
+      "file": "turkce.csv",
+      "sha256": "cb9e881410488ec01d7628bae8313cbf7aede77b7f415281038f3f4360de4c91",
+      "source_counts": {
+        "positive": 1552,
+        "negative": 3001,
+        "neutral": 1448
+      },
+      "removed": {
+        "duplicates": 44,
+        "conflicting_labels": 24
+      },
+      "eligible": {
+        "positive": 1545,
+        "negative": 2954,
+        "neutral": 1434
+      },
+      "selected": {
+        "negative": 1000,
+        "neutral": 1000,
+        "positive": 1000
+      }
+    }
+  }
+}

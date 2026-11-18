@@ -1,0 +1,1 @@
+"""Karşılaştırmalı duygu analizi."""

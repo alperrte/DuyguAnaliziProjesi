@@ -1,0 +1,1 @@
+"""VADER ile duygu analizi."""

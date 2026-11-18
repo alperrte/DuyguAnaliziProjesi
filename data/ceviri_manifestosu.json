@@ -1,0 +1,11 @@
+{
+  "model": "Helsinki-NLP/opus-mt-tr-en",
+  "revision": "19c65427cc2af5f191337d4899e0348c4af25902",
+  "rows": 3000,
+  "beams": 4,
+  "max_new_tokens": 256,
+  "no_repeat_ngram_size": 3,
+  "greedy_retry_ids": [],
+  "empty_output_original_text_ids": [],
+  "sha256": "eeffccef406889889cacb2f94dcb6acd913d1c12e1300f02d3e186541d840ede"
+}

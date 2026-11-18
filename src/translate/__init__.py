@@ -1,0 +1,1 @@
+"""Türkçe metinlerin İngilizce çevirisi."""
